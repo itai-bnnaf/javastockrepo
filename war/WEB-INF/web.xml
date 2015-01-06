@@ -20,6 +20,14 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>Exercise3</servlet-name>
 		<url-pattern>/exercise3</url-pattern>		
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>StockDetailsServlet</servlet-name>
+		<servlet-class>com.t2k.javacourse.StockDetailsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>StockDetailsServlet</servlet-name>
+		<url-pattern>/exercise4</url-pattern>		
+	</servlet-mapping>
 	
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
